@@ -2,7 +2,7 @@
 # sure you lock down to a specific version, not to `latest`!
 # See https://github.com/phusion/passenger-docker/blob/master/Changelog.md for
 # a list of version numbers.
-FROM phusion/passenger-full:<VERSION>
+FROM phusion/passenger-full:4.0.45
 # Or, instead of the 'full' variant, use one of these:
 #FROM phusion/passenger-ruby19:<VERSION>
 #FROM phusion/passenger-ruby20:<VERSION>
